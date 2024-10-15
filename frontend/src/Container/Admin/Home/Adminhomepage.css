@@ -1,0 +1,181 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .admin-homepage-container {
+    padding: 20px;
+    background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+    min-height: 100vh;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .search-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .search-input {
+    width: 60%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .search-button {
+    padding: 10px 20px;
+    background: linear-gradient(45deg, #007bff, #5cb85c); /* Gradient button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.3s, background-color 0.3s; /* Include background color change */
+  }
+  
+  .search-button:hover {
+    transform: translateY(-2px); /* Lift effect */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); /* Shadow on hover */
+    background: linear-gradient(45deg, #5cb85c, #007bff); /* Reverse gradient on hover */
+  }
+  
+  .add-user-form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .user-input {
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 150px; /* Fixed width for user inputs */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .add-button {
+    padding: 5px 10px; /* Same padding as edit and delete buttons */
+    margin-left: 5px; /* Add a margin to match spacing */
+    background: linear-gradient(45deg, #4CAF50, #81C784); /* Gradient button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.3s, background-color 0.3s; /* Include background color change */
+  }
+  
+  .add-button:hover {
+    transform: scale(1.05); /* Same hover effect as edit and delete */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); /* Shadow on hover */
+    background: linear-gradient(45deg, #81C784, #4CAF50); /* Reverse gradient on hover */
+  }
+  
+  
+  .user-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .user-table th, .user-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .user-table th {
+    background-color: #f0f0f0;
+  }
+  
+  .edit-button, .delete-button {
+    padding: 5px 10px;
+    margin-left: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.3s, background-color 0.3s; /* Include background color change */
+  }
+  
+  .edit-button {
+    background-color: #ffa500; /* Orange for edit */
+    color: white;
+  }
+  
+  .edit-button:hover {
+    background-color: #ff8c00; /* Darker orange on hover */
+    transform: scale(1.05); /* Scale effect on hover */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); /* Shadow on hover */
+  }
+  
+  .delete-button {
+    background-color: #e63946; /* Red for delete */
+    color: white;
+  }
+  
+  .delete-button:hover {
+    background-color: #d62839; /* Darker red on hover */
+    transform: scale(1.05); /* Scale effect on hover */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); /* Shadow on hover */
+  }
+  
+  .admin-homepage-container {
+    position: relative;
+    padding: 20px;
+  }
+  
+  .admin-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  
+  .logo-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 15px 30px; /* Increase padding for a bigger button */
+    font-size: 18px; /* Larger text */
+    background: linear-gradient(45deg, #4CAF50, #81C784); /* Gradient button */
+    color: white;
+    border: none;
+    border-radius: 10px; /* Slightly larger border radius */
+    cursor: pointer;
+    transition: transform 0.3s, box-shadow 0.3s, background 0.3s; /* Smooth hover effect */
+  }
+  
+  .logo-button:hover {
+    transform: scale(1.1); /* Slightly larger hover effect */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3); /* More pronounced shadow on hover */
+    background: linear-gradient(45deg, #81C784, #4CAF50); /* Reverse gradient on hover */
+  }
+  
+  
+  
+  .logo-image {
+    height: 50px; /* Adjust size as needed */
+    width: auto;
+  }
+  
+  .search-container {
+    margin-top: 20px;
+  }
+  
+  .user-table {
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  .add-button, .edit-button, .delete-button {
+    margin-right: 10px;
+  }
+  
+  
